@@ -1,6 +1,6 @@
 # spring-boot-boilerplate
 
-- mvn archetype:generate -DartifactId=sprints -DgroupId=in.stackroute.planage -Dversion=1.0.0-SNAPSHOT
+- mvn archetype:generate -DartifactId=<artifact_Id> -DgroupId=<group_Id> -Dversion=1.0.0-SNAPSHOT
 
 - select pom-root
 
@@ -22,7 +22,7 @@
 ```
 
 
--  mvn archetype:generate -DartifactId=api -DgroupId=in.stackroute.planage.sprints -Dversion=1.0.0-SNAPSHOT -DarchetypeArtifactId=maven-archetype-quickstart -Dinteractive=false
+- mvn archetype:generate -DartifactId=<artifact_Id> -DgroupId=<group_Id> -Dversion=1.0.0-SNAPSHOT -DarchetypeArtifactId     =maven-archetype-quickstart -Dinteractive=false
 
 - check in parent pom.xml for modules
 
