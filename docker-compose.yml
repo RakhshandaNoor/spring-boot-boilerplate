@@ -1,0 +1,41 @@
+version: '3'
+
+services:
+
+  eurekaserver:
+    image: eureka-naming-server
+    build: service-discovery
+    ports:
+      - 8761:8761
+#    depends_on:
+#      - configserver
+
+  apigateway:
+    image: apigateway
+    build: apigateway
+    ports:
+      - 8080:8080
+#    depends_on:
+#      - configserver
+
+  processserver:
+    image: processserver
+    build: process-server
+    ports:
+      - 8081:8081
+#    depends_on:
+#      - configserver
+
+  processwebapp:
+    image: processwebapp
+    build: process-webapp
+    ports:
+      - 8082:8082
+#    depends_on:
+#      - configserver
+#
+#  configserver:
+#    image: configserver
+#    build: config-server
+#    ports:
+#      - 8888:8888

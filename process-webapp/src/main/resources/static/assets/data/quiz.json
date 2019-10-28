@@ -1,0 +1,117 @@
+[
+    {
+        "title" : "Quiz on CSS3",
+        "description" : "Quiz on CSS3",
+        "role" : "MEAN Stack Developer",
+        "proficiencyLevel" : "Novice",
+        "totalQuestions" : 20,
+        "assessmentDepth" : 2,
+        "totalDuration" : 10,
+        "creatorEmail" : "gautham.s@stackroute.in",
+        "creatorName" : "Gautham S",
+        "createdOn" : "2019-07-18T16:23:39.546Z",
+        "totalMaxScore" : 0,
+        "maxAttempts" : 3,
+        "sections" : [
+            {
+                "sectionName" : "Programming",
+                "maxScore" : 30,
+                "concepts" : [
+                    "CSS3"
+                ],
+                "skills" : [
+                    "mean stack skill"
+                ],
+                "difficultyLevel" : "easy",
+                "weightage" : 30
+            }
+        ],
+        "settings" : {
+            "allowPause" : false,
+            "showHints" : false
+        },
+        "collaborators" : [
+            "xyz@gmail.com",
+            "mnq@gmail.com"
+        ],
+        "noOfTimesTaken" : 0,
+        "_class" : "com.stackroute.quizcreationservice.model.Quiz"
+    },
+    {
+        "title" : "Quiz on HTML 5",
+        "description" : "Quiz for testing concepts on HTML 5 for building webapplication",
+        "role" : "MEAN Stack Developer",
+        "proficiencyLevel" : "Novice",
+        "totalQuestions" : 20,
+        "assessmentDepth" : 2,
+        "totalDuration" : 10,
+        "creatorEmail" : "gautham.s@stackroute.in",
+        "creatorName" : "Gautham S",
+        "createdOn" : "2019-07-18T19:36:06.007Z",
+        "totalMaxScore" : 0,
+        "maxAttempts" : 3,
+        "sections" : [
+            {
+                "sectionName" : "Programming",
+                "maxScore" : 30,
+                "concepts" : [
+                    "HTML5"
+                ],
+                "skills" : [
+                    "mean stack skill"
+                ],
+                "difficultyLevel" : "easy",
+                "weightage" : 30
+            }
+        ],
+        "settings" : {
+            "allowPause" : false,
+            "showHints" : false
+        },
+        "collaborators" : [
+            "xyz@gmail.com",
+            "mnq@gmail.com"
+        ],
+        "noOfTimesTaken" : 0,
+        "_class" : "com.stackroute.quizcreationservice.model.Quiz"
+    },
+    {
+        "title" : "Quiz on BootStrap",
+        "description" : "Quiz on BootStrap",
+        "role" : "MEAN Stack Developer",
+        "proficiencyLevel" : "Novice",
+        "totalQuestions" : 20,
+        "assessmentDepth" : 2,
+        "totalDuration" : 10,
+        "creatorEmail" : "rakhshanda.noor@stackroute.in",
+        "creatorName" : "Rakhshanda",
+        "createdOn" : "2019-07-18T16:23:39.546Z",
+        "totalMaxScore" : 0,
+        "maxAttempts" : 3,
+        "sections" : [
+            {
+                "sectionName" : "Programming",
+                "maxScore" : 30,
+                "concepts" : [
+                    "BootStrap"
+                ],
+                "skills" : [
+                    "mean stack skill"
+                ],
+                "difficultyLevel" : "easy",
+                "weightage" : 30
+            }
+        ],
+        "settings" : {
+            "allowPause" : false,
+            "showHints" : false
+        },
+        "collaborators" : [
+            "xyz@gmail.com",
+            "mnq@gmail.com"
+        ],
+        "noOfTimesTaken" : 0,
+        "_class" : "com.stackroute.quizcreationservice.model.Quiz"
+    }
+    
+]

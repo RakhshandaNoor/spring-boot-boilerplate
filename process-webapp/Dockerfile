@@ -1,0 +1,5 @@
+FROM openjdk:11
+EXPOSE 8082
+ADD target/process-webapp-0.0.1-SNAPSHOT.jar process-webapp-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar","process-webapp-0.0.1-SNAPSHOT.jar"]
+

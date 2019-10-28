@@ -1,0 +1,5 @@
+FROM openjdk:11
+EXPOSE 8081
+ADD target/process-server-0.0.1-SNAPSHOT.jar process-server-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar","process-server-0.0.1-SNAPSHOT.jar"]
+
